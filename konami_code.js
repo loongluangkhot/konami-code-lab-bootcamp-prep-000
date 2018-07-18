@@ -43,12 +43,12 @@ function init() {
       
       if(index === codes.length) {
         alert('Konami code activated!')
+        index = 0
       }
       
     } else {
       index = 0
     }
-    console.log(index)
     
   })
 }
