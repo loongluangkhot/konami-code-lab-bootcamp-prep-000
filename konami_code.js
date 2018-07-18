@@ -35,8 +35,9 @@ const codes = [
 
 function init() {
   let body = document.querySelector('body')
-  let index = 0
+  
   body.addEventListener('keydown', function(e) {
+    let index = 0
     const key = e.key
     
     if(key === codes[index]) {
