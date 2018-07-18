@@ -54,5 +54,3 @@ function init() {
     
   })
 }
-
-init()
