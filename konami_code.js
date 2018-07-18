@@ -40,13 +40,16 @@ function init() {
     
     if(key === codes[index]) {
       index++
+      
+      if(index === codes.length) {
+        alert('Konami code activated!')
+      }
+      
     } else {
       index = 0
     }
     console.log(index)
-    if(index === codes.length) {
-      alert('Konami code activated!')
-    }
+    
   })
 }
 
