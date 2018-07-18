@@ -43,7 +43,7 @@ function init() {
     }
     
     if(index === codes.length) {
-      alert('Konami ')
+      alert('Konami code activated!')
     }
   })
 }
