@@ -31,10 +31,11 @@ const codes = [
 //   })
 // }
 
-let index = 0
+
 
 function init() {
   let body = document.querySelector('body')
+  let index = 0
   body.addEventListener('keydown', function(e) {
     const key = e.key
     
